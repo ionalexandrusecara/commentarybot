@@ -56,12 +56,9 @@ public class ImagePreProcess {
     }
 
     //Used for testing purposes
-    public static void main(String[] args) throws IOException {
-        BufferedImage image = ImageIO.read(new File("test.jpg"));
-	    ImagePreProcess imagePreProcess = new ImagePreProcess("cropCoordinates.csv");
-        BufferedImage[] preProcessedImages = imagePreProcess.getSubImage(image);
+    public static void storeCrops(int frameNumber, BufferedImage[] preProcessedImages) throws IOException {
         for (int counter = 0; counter < preProcessedImages.length; counter++) {
-            ImageIO.write(preProcessedImages[counter], "jpg", new File("testOutput" + counter + ".jpg"));
+            ImageIO.write(preProcessedImages[counter], "jpg", new File("./frames/frame" + frameNumber + "Crop" + counter + ".jpg"));
         }
     }
 }
