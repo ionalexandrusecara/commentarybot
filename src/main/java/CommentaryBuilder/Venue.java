@@ -5,13 +5,16 @@ package CommentaryBuilder;
  */
 public class Venue {
     String location;
-    String competition;
+    String name;
     String competitionStage;
     String prestige;
 
-    public Venue(String location, String competition, String competitionStage, String prestige) {
+    public Venue() {
+    }
+
+    public Venue(String location, String name, String competitionStage, String prestige) {
         this.location = location;
-        this.competition = competition;
+        this.name = name;
         this.competitionStage = competitionStage;
         this.prestige = prestige;
     }

@@ -9,9 +9,16 @@ public class ImagePreProcess {
     //CSV file from where the coordinates for each crop are taken from
     final String cropCoordinatesFilePath;
     //Our targeted areas to crop. Constructor arguments : int (x, y, width, height)
-    AreaToCrop serveSpeed;
+    AreaToCrop player1Name;
+    AreaToCrop player2Name;
+    AreaToCrop player1set1;
+    AreaToCrop player2set1;
+    AreaToCrop player1set2;
+    AreaToCrop player2set2;
+    AreaToCrop player1score;
+    AreaToCrop player2score;
     AreaToCrop gameTime;
-    AreaToCrop gameScore;
+
 
     //CONSTRUCTOR
     //Construct this object once and then keep on reusing it using getSubImage method.
@@ -26,9 +33,15 @@ public class ImagePreProcess {
         BufferedReader reader = new BufferedReader(new FileReader(cropCoordinatesFilePath));
         if (! reader.readLine().equals("x,y,width,height"))
             throw new IOException();
-        serveSpeed = setupAreaToCrop(reader.readLine());
+        player1Name = setupAreaToCrop(reader.readLine());
+        player2Name = setupAreaToCrop(reader.readLine());
+        player1set1 = setupAreaToCrop(reader.readLine());
+        player2set1 = setupAreaToCrop(reader.readLine());
+        player1set2 = setupAreaToCrop(reader.readLine());
+        player2set2 = setupAreaToCrop(reader.readLine());
+        player1score = setupAreaToCrop(reader.readLine());
+        player2score = setupAreaToCrop(reader.readLine());
         gameTime = setupAreaToCrop(reader.readLine());
-        gameScore = setupAreaToCrop(reader.readLine());
     }
 
     //Helper method
@@ -43,19 +56,24 @@ public class ImagePreProcess {
 
     //Core method
     //Returns an array of images containing our targets cropped areas
-    // ADDRESS 0 ::: serve speed
-    // ADDRESS 1 ::: game time
-    // ADDRESS 2 ::: game score
+    // ADDRESS 0 ::: game score
+    //...
+    // ADDRESS 8 ::: game time
     // IF CHANGES ARE MADE, MAKE SURE TO MODIFY ARRAY LENGTH AND ADD THE NEW CROPPED IMAGE TO THE ARRAY
     public BufferedImage[] getSubImage(BufferedImage imageToPreProcess) {
-        BufferedImage[] croppedImages = new BufferedImage[3];
-        croppedImages[0] = serveSpeed.crop(imageToPreProcess);
-        croppedImages[1] = gameTime.crop(imageToPreProcess);
-        croppedImages[2] = gameScore.crop(imageToPreProcess);
+        BufferedImage[] croppedImages = new BufferedImage[9];
+        croppedImages[0] = player1Name.crop(imageToPreProcess);
+        croppedImages[1] = player2Name.crop(imageToPreProcess);
+        croppedImages[2] = player1set1.crop(imageToPreProcess);
+        croppedImages[3] = player2set1.crop(imageToPreProcess);
+        croppedImages[4] = player1set2.crop(imageToPreProcess);
+        croppedImages[5] = player2set2.crop(imageToPreProcess);
+        croppedImages[6] = player1score.crop(imageToPreProcess);
+        croppedImages[7] = player2score.crop(imageToPreProcess);
+        croppedImages[8] = gameTime.crop(imageToPreProcess);
         return croppedImages;
     }
 
-    //Used for testing purposes
     public static void storeCrops(int frameNumber, BufferedImage[] preProcessedImages) throws IOException {
         for (int counter = 0; counter < preProcessedImages.length; counter++) {
             ImageIO.write(preProcessedImages[counter], "jpg", new File("./frames/frame" + frameNumber + "Crop" + counter + ".jpg"));

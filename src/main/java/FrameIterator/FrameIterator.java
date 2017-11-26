@@ -20,8 +20,8 @@ public class FrameIterator{
 
     public static void main(String []args) throws IOException, Exception, JCodecException
     {
-        File input = new File("videos/anim.mp4");
-        File output = new File("D:/University of St. Andrews/Hackathons/OxfordHack/commentarybot/frames/frame");
+        File input = new File("videos/seq3.mp4");
+        File output = new File("C:\\CommentaryBot\\CommentaryBot\\commentarybot\\frames\\frame");
         if(input.exists()){
             System.out.println("___");
         }
@@ -33,7 +33,7 @@ public class FrameIterator{
         Picture picture;
         BufferedImage bufferedImage;
 
-        for(frameNumber = 3000; frameNumber <= 3050; frameNumber=frameNumber+10){
+        for(frameNumber = 0; frameNumber <= 1100; frameNumber=frameNumber+30){
             picture = FrameGrab.getFrameFromFile(input, frameNumber);
 
             //for JDK (jcodec-javase)

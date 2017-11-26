@@ -1,4 +1,10 @@
 x,y,width,height
-355,15,300,205
-1310,75,135,105
-175,850,430,135
+430,865,65,50,player1Name
+430,905,65,50,player2Name
+505,865,50,50,player1set1
+505,905,50,50,player2set1
+545,865,50,50,player1set2
+545,905,50,50,player2set2
+585,865,50,50,player1score
+585,905,50,50,player2score
+1310,75,350,300,timer
