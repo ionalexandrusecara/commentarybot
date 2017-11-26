@@ -2,46 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8e8c945b-ac2e-4069-b227-c49c9d7d2304" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javax.json-1.0.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/API_calls/API_calls.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/API_calls/EMO_calls.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/API_calls/OCR_calls.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/MAIN.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/TextToSpeech.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ImageProcessing/ImageProcessing.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/FrameIterator/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/FrameIterator/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testOutput0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testOutput1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/testOutput2.jpg" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_artoolkitplus_windows_x86_64_2_3_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_artoolkitplus_windows_x86_2_3_1_1_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_ffmpeg_windows_x86_64_2_7_1_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_ffmpeg_windows_x86_2_7_1_1_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flandmark_windows_x86_64_1_07_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flandmark_windows_x86_1_07_1_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flycapture_windows_x86_64_2_7_3_19_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_flycapture_windows_x86_2_7_3_19_1_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libdc1394_windows_x86_64_2_2_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libdc1394_windows_x86_2_2_3_1_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libfreenect_windows_x86_64_0_5_2_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_libfreenect_windows_x86_0_5_2_1_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_windows_x86_64_3_0_0_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_opencv_windows_x86_3_0_0_1_0.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_videoinput_windows_x86_64_0_200_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_bytedeco_javacpp_presets_videoinput_windows_x86_0_200_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CommentaryBuilder/CommentaryBuilder.class" afterPath="$PROJECT_DIR$/target/classes/CommentaryBuilder/CommentaryBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CommentaryBuilder/GameScore.class" afterPath="$PROJECT_DIR$/target/classes/CommentaryBuilder/GameScore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CommentaryBuilder/MatchData.class" afterPath="$PROJECT_DIR$/target/classes/CommentaryBuilder/MatchData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CommentaryBuilder/PlayerData.class" afterPath="$PROJECT_DIR$/target/classes/CommentaryBuilder/PlayerData.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/CommentaryBuilder/Venue.class" afterPath="$PROJECT_DIR$/target/classes/CommentaryBuilder/Venue.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/FrameIterator/FrameIterator.class" afterPath="$PROJECT_DIR$/target/classes/FrameIterator/FrameIterator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ImagePreProcess/ImagePreProcess.class" afterPath="$PROJECT_DIR$/target/classes/ImagePreProcess/ImagePreProcess.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1000.mp3" afterPath="$PROJECT_DIR$/1000.mp3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/commentarybot.iml" afterPath="$PROJECT_DIR$/commentarybot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cropCoordinates.csv" afterPath="$PROJECT_DIR$/cropCoordinates.csv" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/CommentaryBuilder.java" afterPath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/CommentaryBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/GameScore.java" afterPath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/GameScore.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/MatchData.java" afterPath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/MatchData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/PlayerData.java" afterPath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/PlayerData.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/Venue.java" afterPath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/Venue.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/FrameIterator/FrameIterator.java" afterPath="$PROJECT_DIR$/src/main/java/FrameIterator/FrameIterator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ImagePreProcess/ImagePreProcess.java" afterPath="$PROJECT_DIR$/src/main/java/ImagePreProcess/ImagePreProcess.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/MAIN.java" afterPath="$PROJECT_DIR$/src/main/java/CommentaryBuilder/MAIN.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -76,8 +40,8 @@
       <file leaf-file-name="CommentaryBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/CommentaryBuilder/CommentaryBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1010">
-              <caret line="100" column="41" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
+            <state relative-caret-position="1254">
+              <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -98,8 +62,8 @@
       <file leaf-file-name="MAIN.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/CommentaryBuilder/MAIN.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="92" column="112" selection-start-line="92" selection-start-column="112" selection-end-line="92" selection-end-column="112" />
+            <state relative-caret-position="476">
+              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1197,16 +1161,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/CommentaryBuilder/CommentaryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1010">
-          <caret line="100" column="41" selection-start-line="100" selection-start-column="41" selection-end-line="100" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ImageProcessing/ImageProcessing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -1233,10 +1187,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/CommentaryBuilder/CommentaryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/CommentaryBuilder/MAIN.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="92" column="112" selection-start-line="92" selection-start-column="112" selection-end-line="92" selection-end-column="112" />
+        <state relative-caret-position="476">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

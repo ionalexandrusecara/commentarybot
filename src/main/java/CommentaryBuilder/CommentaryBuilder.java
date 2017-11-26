@@ -98,8 +98,10 @@ public class CommentaryBuilder {
         ArrayList<String> possibleCommentaries = new ArrayList();
 
         possibleCommentaries.add("Well played!");
-        possibleCommentaries.add("What a play!");
-        possibleCommentaries.add("Wonderful.");
+        possibleCommentaries.add("Wonderful play!");
+        possibleCommentaries.add("Great point!");
+        possibleCommentaries.add("Breathtaking!");
+        possibleCommentaries.add("Can't take my eyes of the ball! Amazing!");
 
         int chosenCommentary = (int) Math.floor(Math.random() * possibleCommentaries.size());
         return possibleCommentaries.get(chosenCommentary);
@@ -110,8 +112,10 @@ public class CommentaryBuilder {
             return "";
         ArrayList<String> possibleCommentaries = new ArrayList();
         possibleCommentaries.add(gameScore + ".");
-        //possibleCommentaries.add();
-        //possibleCommentaries.add();
+        possibleCommentaries.add("Some really great points! Both players are putting in a great effort!");
+        possibleCommentaries.add("So much effort from both players! They are making a great display!");
+        possibleCommentaries.add("You can feel the pressure in the air! Both players want to win!");
+
 
         int chosenCommentary = (int) Math.floor(Math.random() * possibleCommentaries.size());
         return possibleCommentaries.get(chosenCommentary);
@@ -133,8 +137,10 @@ public class CommentaryBuilder {
         ArrayList<String> possibleCommentaries = new ArrayList();
 
         possibleCommentaries.add(playerOnDisplay + ", on display. Big game for this player today.");
-        possibleCommentaries.add("Ranked " + getPlayerOnDisplay(playerOnDisplay).worldRank + ", " + playerOnDisplay + " is looking for more today.");
-        possibleCommentaries.add("Can " + playerOnDisplay + " improve on her ranking, currently ranked as number " + getPlayerOnDisplay(playerOnDisplay).worldRank + " worldwide?");
+        possibleCommentaries.add("Ranked " + getPlayerOnDisplay(playerOnDisplay).worldRank + ", " + playerOnDisplay + " is looking for more in this game.");
+        possibleCommentaries.add("Can " + playerOnDisplay + " improve on her form, currently ranked as number " + getPlayerOnDisplay(playerOnDisplay).worldRank + " worldwide?");
+        possibleCommentaries.add(playerOnDisplay + ", shows great composure! She is slowly improving on her mistakes");
+        possibleCommentaries.add(playerOnDisplay + ", is putting in a good shift! No wonder she got this high in the rankings!");
 
         int chosenCommentary = (int) Math.floor(Math.random() * possibleCommentaries.size());
         return possibleCommentaries.get(chosenCommentary);
@@ -144,7 +150,7 @@ public class CommentaryBuilder {
         ArrayList<String> possibleCommentaries = new ArrayList();
 
         possibleCommentaries.add(playerOnDisplay.name + ", showing much " + mood + " after the last play.");
-        possibleCommentaries.add("You can see " + mood + " on " + playerOnDisplay.name + ".");
+        possibleCommentaries.add("You can see " + mood + " on " + playerOnDisplay.name + ". Does she have what it takes?");
         //possibleCommentaries.add();
 
         int chosenCommentary = (int) Math.floor(Math.random() * possibleCommentaries.size());
@@ -156,21 +162,37 @@ public class CommentaryBuilder {
 
         if (gameTrend < -0.5) {
             possibleCommentaries.add("Things are not really going " + player1.name + "'s way right now.");
+            possibleCommentaries.add(player1.name + "has to change her game. It's really not looking good.");
+            possibleCommentaries.add("Call 911! " + player2.name + " is on fire!");
+            possibleCommentaries.add("This is " + player2.name + " at her best!");
+            possibleCommentaries.add("This is " + player2.name + " for you! Amazing effort!");
             possibleCommentaries.add("Tremendous performance from " + player2.name + " in the past few plays.");
         }
         else if (gameTrend > -0.5 && gameTrend < -0.2) {
             possibleCommentaries.add(player2.name + " starting to get a slight edge over her opponent.");
+            possibleCommentaries.add(player2.name + " has the edge in this game!");
+            possibleCommentaries.add(player2.name + " has the psychological advantages in this game!");
+            possibleCommentaries.add(player2.name + " takes the lead in this game. Her recent form shows improvement!");
         }
         else if (gameTrend > -0.2 && gameTrend < 0.2) {
             possibleCommentaries.add("An extremely tight game currently, for both the players.");
             possibleCommentaries.add("Difficult to differentiate between two very good players right now.");
+            possibleCommentaries.add("Both players are putting in a great shift! We witnessed some amazing plays today!");
+            possibleCommentaries.add("Tennis is about discipline and effort. Both players are really showing that today!");
         }
         else if (gameTrend > 0.2 && gameTrend < 0.5) {
             possibleCommentaries.add(player1.name + " starting to get a slight edge over her opponent.");
+            possibleCommentaries.add(player1.name + " has the edge in this game!");
+            possibleCommentaries.add(player2.name + " has the psychological advantages in this game!");
+            possibleCommentaries.add(player1.name + " takes the lead in this game. Her recent form shows improvement!");
         }
         else {
             possibleCommentaries.add("Things are not really going " + player2.name + "'s way right now.");
             possibleCommentaries.add("Tremendous performance from " + player1.name + " in the past few plays.");
+            possibleCommentaries.add(player2.name + " has to change her game. It's really not looking good.");
+            possibleCommentaries.add("Call 911!" + player1.name + " is on fire!");
+            possibleCommentaries.add("This is " + player1.name + " at her best!");
+            possibleCommentaries.add("This is " + player1.name + " for you! Amazing effort!");
         }
         int chosenCommentary = (int) Math.floor(Math.random() * possibleCommentaries.size());
         return possibleCommentaries.get(chosenCommentary);
@@ -179,8 +201,10 @@ public class CommentaryBuilder {
     private String makeVenueCommentary(Venue venue) {
         ArrayList<String> possibleCommentaries = new ArrayList();
 
-        possibleCommentaries.add("Again a pleasure to comment on Tennis at " + venue.name + " in " + venue.location + ".");
+        possibleCommentaries.add("Again a pleasure to comment on a tennis game at " + venue.name + " in " + venue.location + ".");
         possibleCommentaries.add("It's still anyone's game today, at " + venue.name + "!");
+        possibleCommentaries.add("There's always such a nice atmosphere here at" + venue.name + "!");
+        possibleCommentaries.add("I never get tired of coming back to " + venue.name + "! Such an amazing court!");
         //possibleCommentaries.add("");
 
         int chosenCommentary = (int) Math.floor(Math.random() * possibleCommentaries.size());

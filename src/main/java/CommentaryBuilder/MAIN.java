@@ -16,10 +16,16 @@ public class MAIN {
 
 
     public static void main(String[] args) throws IOException, InterruptedException, ParseException{
-        //run0();
-        //run1();
-        //run2();
-        run3();
+        //while(true) {
+            run0();
+            Thread.sleep(20000);
+            run1();
+            Thread.sleep(20000);
+            run2();
+            Thread.sleep(20000);
+            run3();
+            Thread.sleep(20000);
+        //}
     }
 
     public static void textToSpeech0(String commentary, long offset) throws IOException, InterruptedException {
